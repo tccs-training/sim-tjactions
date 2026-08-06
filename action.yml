@@ -1,0 +1,9 @@
+name: "Changed Files"
+description: "List files changed in a PR/push."
+runs:
+  using: "composite"
+  steps:
+    - run: echo "collecting changed files"
+      shell: bash
+
+# release v1.0.0
